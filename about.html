@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/logo.jpg">
+    <title>FHS</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="falcon.html"><img src="logo.png" /></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="closeMenu()"></i>
+                <ul>
+                    <li><a href="falcon.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contant</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="openMenu()"></i>
+        </nav>
+
+       <h1> About Us</h1>
+    </section>
+
+    <!------ About us content ----->
+   
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1> Welcome to Falcon House School </h1>
+                <p> Where education meets inspiration. We're dedicated to shaping young minds and building a foundation for lifelong learning. At Falcon House School, we focus on academic excellence, character development, and creating a supportive community. Join us on a journey of growth and achievement, where knowledge and values flourish. </p>
+                <a href="" class="button-fhs red-but" >Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="image/about.jpg" />
+            </div>
+
+        </div>
+    </section>
+ 
+
+
+
+    <!----- Footer ----->
+    <section class="footer">
+        <h4> About Us </h4>
+        <p>
+            Committed to Excellence in Education.<br />
+            Unlocking Potential, Shaping Futures.<br />
+            Connect With Us:
+        </p>
+        <div class="icons">
+            <a href="https://www.facebook.com/profile.php?id=100067148815650"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.twitter.com"><i class="fa fa-linkedin"></i></a>
+        </div>
+
+        <div class="me"> 
+            <p> Made with <i class="fa fa-heart-o"></i> by Chaudary Abdullah </p>
+            <p> </p>
+        </div>
+    </section>
+
+
+    <!----- JavaScript for toggle Menu ----->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function openMenu() {
+            navLinks.style.right = "0";
+        }
+        function closeMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
