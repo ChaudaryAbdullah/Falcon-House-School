@@ -107,7 +107,7 @@ nav img{
         display: block;
     }
     .nav-links{
-        position: absolute;
+        position: fixed;
         background: crimson;
         height: 100vh;
         width: 150px;
@@ -425,4 +425,59 @@ h3 {
     .about-col h1 {
         font-size: 22px;
     }
+}
+
+/* -------- Contact Us -------*/
+.location {
+    background: #bddbe5;
+    width: 100%;
+    margin: auto;
+    padding: 80px 0;
+    color: snow;
+    text-align: center;
+}
+
+.location iframe{
+    width: 90%;
+}
+
+.contact {
+    background: #bddbe5;
+    width: 100%;
+    margin: auto;
+    padding: 1px 0;
+    
+}
+.contact p {
+    font-size: 15px;
+}
+
+.contact h5 {
+    font-size: 20px;
+}
+
+    .contact .fa {
+        font-size: 30px;
+        margin-right: 5px;
+        color: red;
+    }
+
+
+.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* -------- blogs -------*/
+.blog {
+    background: #bddbe5;
+    width: 100%;
+    margin: auto;
+    padding: 80px 0;
+    color: snow;
+    text-align: center;
 }
